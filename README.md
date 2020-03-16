@@ -1,11 +1,12 @@
-# Description
-algorithms for dilation, erosion and opening on any structuring element
+## Description
 
-# Usage
+Implementation of erosion, dilation and opening on grayscale and binary images.
+
+## Usage
 
 The images that the program inputs and outputs are written as CSV files. The ones used are in the input folder, and the result of the operations go to the output folder.
 
-## Makefile
+### Makefile
 
 ```bash
 make .
@@ -24,7 +25,7 @@ Performs the following operations :
 * opening though dilation of 'ef3_e4.txt' by backward diagonal of size 9 (-> of3_o4.txt)
 * opening of the image 'experiment3.png.txt' by forward diagonal of size 3 (-> experiment3_opening.txt)
 
-## Command line 
+### Command line 
 
 ```bash
 cd dilation_erosion_implementation 
