@@ -15,6 +15,4 @@ run: morphological_operation.cpp
 	./morphological_operation d SE_5x5_square.txt ef3_e3.txt of3_o3.txt
 	./morphological_operation d SE_bdiagonal.txt ef3_e4.txt of3_o4.txt
 	./morphological_operation e SE_assymetric.txt assymetric_experiment.png.txt assymetric_experiment_erosion.txt
-	./morphological_operation e SE_3x3_square.txt experiment1.png.txt experiment1_erosion.txt
-	./morphological_operation d SE_5x5_exp2.txt experiment2.png.txt experiment2_dilation.txt
 	./morphological_operation opening SE_3x3_fdiagonal.txt experiment3.png.txt experiment3_opening.txt
